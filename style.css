@@ -1,0 +1,33 @@
+body {
+    font-family: Tahoma, sans-serif, Arial;				/* Основной и запасной шрифты */
+    font-size: 15px;  
+    color: #333;
+    line-height: 20px;									/* Отступ межстрочный, может быть не только в пикселях, а через множитель  1.5 или 2 от размера */шрифта-->
+}
+p {
+    text-indent: 20px;									/*  Красная строка */
+    
+}
+
+        .title {color: blue;
+                font-weight: 700;						/* Толщина (bold, normal) */
+                text-align:center;   					/*  Выравнивание текста по горизонтали */
+                letter-spacing: -2px;                   /*  Расстояние между буквами */
+            text-decoration: overline;					/*  Линия над текстом (под текстом, зачеркнутый текст) */
+                text-transform: uppercase;				/*  Все заглавные буквы */
+}
+
+                    .justify {text-align:justify;		/*  Растяжение текста по ширине страницы */
+                        font-weight: normal;
+                        font-style:italic;				/*  Курсив */
+                        text-transform:capitalize		/*  Все первые буквы заглавные */
+}
+                       
+                       ul {
+                            list-style-type: square;	/*  Квадратные маркеры списка */	
+                            list-style-position: inside; /*  Красная строка списка */
+                            color: #ccc;
+                           font-family: Times new roman;
+                        }
+
+
